@@ -19,15 +19,6 @@
     </a>
   {% endif %}
 
-  {% if site.share-links-active.facebook %}
-  <!--- Share on Facebook -->
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
-      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
-      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
-      <span class="sr-only">Facebook</span>
-    </a>
-  {% endif %}
-
   {% if site.share-links-active.linkedin %}
   <!--- Share on LinkedIn -->
     <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}"
@@ -37,6 +28,14 @@
     </a>
   {% endif %}
 
+  {% if site.share-links-active.facebook %}
+  <!--- Share on Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  {% endif %}
 </section>
 
 {% endif %}

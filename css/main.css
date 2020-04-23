@@ -187,6 +187,7 @@ img {
   width: 100%;
   border-radius: 50%;
   display: block;
+  border: 2px solid red;
 }
 
 .navbar-custom.top-nav-expanded .avatar-container {
@@ -403,17 +404,18 @@ footer .theme-by {
   letter-spacing: 2px;
   text-decoration: none;
   padding: 0px 10px;
-  border: 1px solid red;
-  border-radius: 5px;
+  border: 2px solid red;
+  border-radius: 1px;
+  margin: 0px 5px;
 }
 .blog-tags a::before {
   content: "#";
-  font-size: 15px;
 }
 
 .blog-tags a:hover {
-  border-radius: 5px;
+  border-radius: 1px;
   color: white;
+  font-weight: bold;
   background-color: red;
 }
 
