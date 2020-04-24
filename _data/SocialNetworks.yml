@@ -22,6 +22,21 @@ twitter:
   urlTemplate: "https://twitter.com/{value}"
   icon: "fab fa-twitter"
 
+medium:
+  name: "Medium"
+  urlTemplate: "https://medium.com/@{value}"
+  icon: "fab fa-medium"
+
+codepen:
+  name: "Codepen"
+  urlTemplate: "https://codepen.com/{value}"
+  icon: "fab fa-codepen"
+
+linkedin:
+  name: "LinkeIn"
+  urlTemplate: "https://linkedin.com/in/{value}"
+  icon: "fab fa-linkedin"
+
 reddit:
   name: "Reddit"
   urlTemplate: "https://reddit.com/u/{value}"
