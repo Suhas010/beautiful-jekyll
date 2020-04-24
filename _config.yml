@@ -14,7 +14,7 @@ description: ReactJS, JavaScript, NodeJS Webdeveloper
 url: "https://blog.suhas010.io"
 
 # baseurl should be an empty string
-# baseurl: "/suhas-more-blog"
+baseurl: "/"
 
 #should show title on navigation
 show_title: false
