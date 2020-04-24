@@ -11,10 +11,10 @@ description: ReactJS, JavaScript, NodeJS Webdeveloper
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-# url: "https://suhas010.github.io"
+url: "https://blog.suhas010.io"
 
 # baseurl should be an empty string
-# baseurl: "/suhas-more-blog/"
+# baseurl: "/suhas-more-blog"
 
 #should show title on navigation
 show_title: false
@@ -112,7 +112,7 @@ google_analytics: "UA-164340430-1"
 
 # To use Staticman comments, fill in repository, branch, and endpoint
 staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository : suhas010/suhas-more-blog # GitHub username/repository eg. "daattali/beautiful-jekyll"
   branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
   endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
   reCaptcha:
