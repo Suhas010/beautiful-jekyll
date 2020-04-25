@@ -108,12 +108,12 @@ google_analytics: "UA-164340430-1"
 # disqus: ""
 
 # To use Facebook Comments, fill in a Facebook App ID
-# fb_comment_id: ""
+fb_comment_id: "2995437077173696"
 
 # To use Staticman comments, fill in repository, branch, and endpoint
 staticman:
-  repository : suhas010/suhas-more-blog # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  # repository : suhas010/suhas-more-blog # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  # branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
   endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
