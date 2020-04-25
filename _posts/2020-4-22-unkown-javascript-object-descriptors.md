@@ -7,7 +7,7 @@ published: true
 categories:
     - JavaScript
 tag:
-    - JavaScript
+     JavaScript
 ---
 
 
