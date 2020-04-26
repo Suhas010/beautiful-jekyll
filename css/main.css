@@ -684,7 +684,7 @@ pre {
 .highlight pre {
   border: none;
   background: none;
-  margin: 0;
+  margin: 5px 25px 25px 5px;
 }
 .highlight > pre {
   background-image: linear-gradient(
@@ -692,7 +692,30 @@ pre {
   background-size: auto 3em;
   background-position-y: 10px;
   border: 1px solid rgba(0,0,0,0.1);
-  border-left: 7px solid #444;
+  /* border-left: 7px solid #444; */
+}
+code::before {
+  content: "\A \A";
+}
+pre::after {
+  content: "Suhas More \A Twitter:@Suhas0101";
+  color: #84909466;
+  background: transparent;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+}
+pre::before {
+  content: " ";
+  height: 20px;
+  width: 20px;
+  background: #FF605C;
+  position: absolute;
+  padding-bottom: 11px;
+  border-radius: 50%;
+  box-shadow: 30px 1px 0px 0px #FFBD44, 60px 1px 0px 0px #00CA4E;
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;

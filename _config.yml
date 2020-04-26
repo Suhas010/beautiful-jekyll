@@ -150,8 +150,11 @@ date_format: "%B %-d, %Y"
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
-markdown: kramdown
-highlighter: rouge
+# markdown: kramdown
+markdown: redcarpet
+highlighter: pygments 
+# redcarpet: extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+# highlighter: rouge
 permalink: /:title/
 paginate: 5
 
